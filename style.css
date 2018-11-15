@@ -1,13 +1,21 @@
 body {
-  margin: 0;
+margin: 0;
   padding: 0;
+
 }
 
+.header-div {
+margin: auto;
+width: 80%;
+
+}
 .header-grid-container {
+  margin: auto;
   display: inline-grid;
   grid-template-columns: 1fr 0.5fr 3fr 0.5fr 1fr;
   background-color: #2196F3;
   height: 150px;
+  width: 80%;
 }
 
 .header-grid-container div {
@@ -53,6 +61,11 @@ body {
   max-width: 200px;
 }
 
+.nav-container {
+margin: auto;
+width: 80%;
+
+}
 nav {
   width: 100%;
   text-align: center;
